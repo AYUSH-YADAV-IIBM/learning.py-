@@ -1,21 +1,39 @@
 student={
-"aniket kumar yadav":{"roll":157,"marks":480,"collage-name":"indian institute of business management",
-                      "course":"BCA","semester":"secound semester","year":"1st year"},
+    "ayush yadav":{
+        "name":"ayush yadav",
+        "roll":157,
+        "marks":400,
+        "course":"bca",
+        "collage":"iibm",
+        "semester":"first",
+        "year":"first"
+        
 
-"bobby kumar":{"roll":148,"marks":500,"collage-name":"indian institute of business management",
-               "course":"BCA","semester":"secound semester","year":"1st year"}
+    },
+         "bobby kumar":{
+         "name":"bobby kumar",
+        "roll":148,
+        "marks":400,
+        "course":"bca",
+        "collage":"iibm",
+        "semester":"first",
+        "year":"first"
+        
 
+    }
+  
 }
 
-name=input("ENTER STUDENT NAME!:")
+name=input("ENTER STUENT NAME:")
 
 if name in student:
+    print("name",student[name]["name"])
     print("roll",student[name]["roll"])
     print("marks",student[name]["marks"])
-    print("collage-name",student[name]["collage-name"])
     print("course",student[name]["course"])
+    print("collage",student[name]["collage"])
     print("semester",student[name]["semester"])
     print("year",student[name]["year"])
 
 else:
-    print("student name not found")
+    print("student not found")
