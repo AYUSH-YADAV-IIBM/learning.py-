@@ -31,4 +31,20 @@ def factorial(n):
         return 1
     return n*factorial(n-1)
 n=int(input("enter your number:"))
+<<<<<<< HEAD
 print(f"the factriol of this number is:",factorial(n))
+=======
+print(f"the factriol of this number is:",factorial(n))
+
+
+
+
+
+def even(number):
+    return number %2==0
+num=int(input("enter your number:"))
+if even(num):
+    print(f"{num}= is even number")
+else:
+    print(f"{num}=is odd number")
+>>>>>>> e12166d (add)

@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 student={
    157:{"name":"ayush","marks":500},
    146:{"name":"bobby","marks":510},
@@ -15,6 +14,3 @@ else:
 =======
 a | 1
 >>>>>>> f22a2009b2067ab9b983d04a5940d6c95ce9cf15
-=======
-a | 1
->>>>>>> e12166d (add)
