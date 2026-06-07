@@ -1,4 +1,11 @@
-s1={11,1,11,44,22,44,11,22,1}
-s2={45,44,12,11,55,1,2}
-print(s1.intersection(s2))
-print(s1.union(s2))
+def gratest(a,b,c):
+    if a>b and a>c:
+        return f"A  {a}"
+    elif b>a and b>c:
+        return f"B {b}"
+    else:
+        return f"C {c}"
+a=int(input("enter your number A:"))
+b=int(input("enter your number B:"))
+c=int(input("enter your number C:"))
+print(f"the gratest number is:{gratest(a,b,c)}")
