@@ -1,7 +1,11 @@
-# type of defination in pyton
-age:int=25
-print(age)
+correct_username="ayush yadav"
+correct_password=12345
 
-def greeting(name:str,surname:str) -> str:
-    return F"HELLO:\t{name}\t{surname}"
-print(greeting("AYUSH","YADAV"))
+username=input("enter your username:")
+password=int(input("enter your password:"))
+
+if username==correct_username or password==correct_password:
+    print("login sucessful")
+
+else:
+    print("error:please enter valid username and password")
